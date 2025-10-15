@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MajorBeat</name>
+    </assembly>
+    <members>
+        <member name="T:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Id">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.id"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Nome">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.nome"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Email">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.email"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Telefone">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.telefone"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Logradouro">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.logradouro"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Numero">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.numero"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Cep">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.cep"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Bairro">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.bairro"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Cidade">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.cidade"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Uf">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.uf"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Senha">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.senha"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Biografia">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.biografia"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Username">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.username"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.TipoMusico">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.tipoMusico"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Instrumentos">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.instrumentos"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Generos">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.generos"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.FotoBytes">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.fotoBytes"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.LinkLinkdin">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.linkLinkdin"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.LinkInsta">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.linkInsta"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.LinkTwitter">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.linkTwitter"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.LinkFacebook">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.linkFacebook"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.RedesSociais">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.redesSociais"/>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.CurrentIndex">
+            <inheritdoc cref="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.currentIndex"/>
+        </member>
+        <member name="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.nextCommand">
+            <summary>The backing field for <see cref="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.NextCommand"/>.</summary>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.NextCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Next"/>.</summary>
+        </member>
+        <member name="F:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.previousCommand">
+            <summary>The backing field for <see cref="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.PreviousCommand"/>.</summary>
+        </member>
+        <member name="P:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.PreviousCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MajorBeat.ViewModels.Musicians.ProfileMusicianViewModel.Previous"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Nome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Nome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Telefone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Telefone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Logradouro">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Logradouro" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Numero">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Numero" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cep">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cep" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Bairro">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Bairro" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cidade">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cidade" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Uf">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Uf" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Senha">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Senha" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Biografia">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Biografia" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TipoMusico">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TipoMusico" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Instrumentos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Instrumentos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Generos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Generos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FotoBytes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FotoBytes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LinkLinkdin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LinkLinkdin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LinkInsta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LinkInsta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LinkTwitter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LinkTwitter" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LinkFacebook">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LinkFacebook" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RedesSociais">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RedesSociais" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentIndex" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Nome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Nome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Telefone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Telefone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Logradouro">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Logradouro" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Numero">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Numero" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cep">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cep" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Bairro">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Bairro" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cidade">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cidade" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Uf">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Uf" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Senha">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Senha" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Biografia">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Biografia" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TipoMusico">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TipoMusico" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Instrumentos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Instrumentos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Generos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Generos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FotoBytes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FotoBytes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LinkLinkdin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LinkLinkdin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LinkInsta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LinkInsta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LinkTwitter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LinkTwitter" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LinkFacebook">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LinkFacebook" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RedesSociais">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RedesSociais" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentIndex" generated properties.</summary>
+        </member>
+    </members>
+</doc>
